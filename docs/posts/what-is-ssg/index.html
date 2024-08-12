@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="icon" href="/taller_antonio/assets/eleventy.png" type="image/png">
+    <link rel="stylesheet" href="/taller_antonio/css/pico.min.css">
+    <link rel="stylesheet" href="/taller_antonio/css/styles.css">
+    <title>Understanding Static Site Generators (SSG)</title>
+  </head>
+  <body>
+    <header class="container-fluid vertical-center" role="group">
+  <div class="center">
+    <img class="img-medium" src="/taller_antonio/assets/eleventy.avif" alt="11ty logo">
+    <div class="center-navbar vertical-center">
+      <h1>Understanding Static Site Generators (SSG)</h1>
+      <nav class="container-fluid center">
+        <ul>
+          <li><a href="/taller_antonio/">Home</a></li>
+          <li><a href="/taller_antonio/about">About</a></li>
+          <li><a href="/taller_antonio/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="https://pages.github.com/" target="_blank">
+        <img class="img-icon" src="/taller_antonio/assets/github.svg" alt="github logo">
+      </a>
+    </div>
+    <img class="img-medium" src="/taller_antonio/assets/favicon.png" alt="nunjucks custom logo">
+  </div>
+  <hr>
+</header>
+    <main class="container-fluid">
+      <h2>What is a Static Site Generator?</h2>
+<p>A <strong>Static Site Generator (SSG)</strong> is a tool used in web development to produce static HTML websites from raw data and templates. Unlike traditional dynamic websites that rely on server-side code and databases, static websites are made up of fixed content files that are created once and delivered to the viewer without the need for server-side processing.</p>
+<p><img src="/taller_antonio/assets/eleventy-grumpy.avif" alt="ssg"></p>
+<h2>How Does an SSG Work?</h2>
+<p>Static site generators take source files, which can be written in Markdown, HTML, or other template languages, and transform them into a set of static HTML pages. These files typically include text, images, and other media that are arranged according to a predefined template. The process involves three main steps:</p>
+<ol>
+<li><strong>Reading and parsing the source files</strong>: The SSG reads the raw content files, which can include Markdown or data files like JSON or YAML.</li>
+<li><strong>Applying templates</strong>: The raw content is inserted into templates to ensure a consistent layout across the website.</li>
+<li><strong>Generating static HTML files</strong>: The completed files are compiled into HTML and can be uploaded directly to any web host.</li>
+</ol>
+<h2>Benefits of Using Static Site Generators</h2>
+<h3>Speed</h3>
+<p>Static sites are incredibly fast because they consist of simple HTML files ready to be served directly. There's no need to wait for server-side code to run or databases to return data.</p>
+<h3>Security</h3>
+<p>With no database or dynamic software running on the server, static sites are less vulnerable to common security threats such as SQL injection or cross-site scripting (XSS).</p>
+<h3>Scalability</h3>
+<p>Handling traffic spikes is easier with static sites because serving static files can be efficiently distributed across multiple servers or content delivery networks (CDN).</p>
+<h3>Version Control Friendly</h3>
+<p>Static site content can be managed and versioned using tools like Git. This makes it easy to track changes, roll back to previous versions, and collaborate on content.</p>
+<h3>Cost-Effective Hosting</h3>
+<p>Hosting static files is generally cheaper than hosting dynamic websites. Many providers offer free hosting for static sites, and CDNs can serve content at a low cost.</p>
+<h3>Simplified Backup and Migration</h3>
+<p>Backing up a static site involves simply copying a folder. This simplicity also makes it easy to migrate from one hosting provider to another.</p>
+<h2>Popular Static Site Generators</h2>
+<ul>
+<li><strong>Jekyll</strong>: Integrates easily with GitHub Pages, making it popular for personal, project, or documentation sites.</li>
+<li><strong>Hugo</strong>: Known for its speed and flexibility, Hugo is great for larger projects or portfolios.</li>
+<li><strong>Next.js</strong>: Offers static site generation capabilities with React, suitable for modern web applications.</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Static site generators offer a compelling approach to web development, balancing simplicity with speed, security, and cost efficiency. Whether for personal blogs, project documentation, or entire websites, SSGs provide a robust solution that modern developers can rely on.</p>
+
+    </main>
+    <footer class="container-fluid vertical-center">
+  <hr>
+  <div class="center">
+    🎈🦡
+    <small>Starter-kit made with
+      <a href="https://www.11ty.dev/" target="_blank">
+        <b>
+          <i>11ty</i>
+        </b>
+      </a>
+    </small>
+    🦡🎈
+  </div>
+</footer>
+    <script src="/taller_antonio/js/index.js" type="module"></script>
+  </body>
+</html>
