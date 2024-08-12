@@ -1,0 +1,13 @@
+---
+layout: layout/layout-page.njk
+title: About
+description: This website is a starter-kit for 11ty, a minimalist, SEO friendly, agnostic and very fast way to create static sites (SSG).
+---
+
+<ul>
+    {% for item in linksData %}
+        <li>
+            <a href="{{ item.url }}" target="_blanck">{{ item.text }}</a>
+        </li>
+    {% endfor %}
+</ul>

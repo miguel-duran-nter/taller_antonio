@@ -7,10 +7,10 @@
     "dev": "eleventy --serve",
     "clean": "rm -rf dist docs",
     "build": "npm run clean && eleventy",
-    "deploy": "npm run clean && eleventy --output=docs --pathprefix=/subdirectory/"
+    "deploy": "npm run clean && eleventy --output=docs --pathprefix=/taller_antonio/"
   },
   "keywords": [],
-  "author": "ASanchz85",
+  "author": "Bigmike",
   "license": "MIT",
   "description": "11ty starter-kit",
   "devDependencies": {
