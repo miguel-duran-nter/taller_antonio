@@ -1,0 +1,94 @@
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+html {
+  background: url('/assets/bg.jpg') repeat center center/cover;
+}
+
+p:has(img) {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: #333;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-icon {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.img-small {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+.img-medium {
+  height: 240px;
+  width: auto;
+  object-fit: contain;
+}
+
+.img-large {
+  height: 400px;
+  width: auto;
+  object-fit: contain;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.center-navbar {
+  width: 600px;
+}
+
+.center-navbar > h1 {
+  text-align: center;
+}

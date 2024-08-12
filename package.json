@@ -1,0 +1,19 @@
+{
+  "name": "11ty-starter-kit",
+  "version": "0.0.1",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "dev": "eleventy --serve",
+    "clean": "rm -rf dist docs",
+    "build": "npm run clean && eleventy",
+    "deploy": "npm run clean && eleventy --output=docs --pathprefix=/subdirectory/"
+  },
+  "keywords": [],
+  "author": "ASanchz85",
+  "license": "MIT",
+  "description": "11ty starter-kit",
+  "devDependencies": {
+    "@11ty/eleventy": "2.0.1"
+  }
+}
